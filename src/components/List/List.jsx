@@ -1,4 +1,4 @@
-import Item from "../Item";
+import Item from '../Item';
 
 function List({ items = [], onItemClick }) {
   const handleItemClick = (item) => {
