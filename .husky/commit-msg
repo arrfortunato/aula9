@@ -5,4 +5,4 @@ echo ""
 echo "Running Husky commit-msg 🐶 woof!"
 echo ""
 
-npx --no -- commitlint --edit
+npx commitlint --edit $1
