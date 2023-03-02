@@ -3,7 +3,6 @@ import Item from '../Item';
 function List({ items = [], onItemClick }) {
   const handleItemClick = (item) => {
     onItemClick && onItemClick(item);
-    const a = 'sdasd';
   };
 
   const map = items.map((item) => {
