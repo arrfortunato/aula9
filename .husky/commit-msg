@@ -4,4 +4,4 @@
 echo "Running Husky commit-msg 🐶 woof!"
 echo ""
 
-npx commitlint --edit $1
+npx --no-install commitlint --edit $1
